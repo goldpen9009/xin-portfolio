@@ -18,7 +18,6 @@ import aws from "../assets/aws.png";
 import angular from "../assets/angular.png";
 
 import Hackthechain from "../assets/HackTheChainLogo.png";
-import GSSOC from "../assets/GSSoc.jpg";
 import IITB from "../assets/IITB.png";
 import Sports from "../assets/Sports_Club.png";
 import IIITians from "../assets/IIITians_Network.png";
@@ -50,7 +49,6 @@ export {
   Javascript,
   Vue,
   Hackthechain,
-  GSSOC,
   IITB,
   Sports,
   IIITians,
