@@ -8,14 +8,10 @@ import { useEffect } from "react";
 import IIIT_KOTA from "../assets/IIIT_Kota.png";
 
 import {
-  Hackthechain,
-  GSSOC,
-  IITB,
-  Sports,
-  IIITians,
-  GDSC,
-  KDE,
-  Oppia,
+  ELEKS,
+  CURAI,
+  DEMAND,
+  BOEING,
 } from "../constants/Constant";
 
 const Experience = () => {
@@ -34,71 +30,36 @@ const Experience = () => {
           </h1>
 
           <div
-            className="EXPERIENCE mt-16 grid gap-20 max-sm:gap-10 max-sm:grid-cols-1 grid-cols-3"
+            className="EXPERIENCE mt-16 grid gap-20 max-sm:gap-10 max-sm:grid-cols-1 grid-cols-2"
             data-aos="zoom-in-up"
           >
             <Exp_prop
-              img={Oppia}
-              title="Oppia Foundation"
-              subtitle="LAcE Team Member"
-              date="November 2023 - present"
-              para="- Worked collabartively with developers from Russia and United States to remove the bugs, improving user experience."
+              img={ELEKS}
+              title="Eleks Labs"
+              subtitle="Lead Full Stack Developer"
+              date="July 2022 - present"
+              para="Built secure digital asset exchange and e-commerce platforms using modern frontend frameworks, scalable backend services, and blockchain integrations."
             />
             <Exp_prop
-              img={KDE}
-              title="Season of KDE'24"
-              subtitle="Mentee"
-              date="January 2023 - present"
-              para="- SoK'24 mentee for the cantor project converting the documentation for several programming languages into QT Help files. "
+              img={CURAI}
+              title="Curai Health"
+              subtitle="Senior Software Engineer"
+              date="Aug 2020 - Jul 2022"
+              para="Led development of company website and admin platform with React, Vue, .NET, and Python, ensuring scalability, security, and long-term reliability."
             />
             <Exp_prop
-              img={GDSC}
-              title="GDSC IIIT Kota"
-              subtitle="Web Development Lead"
-              date="August 2023 - present"
-              para="- Web Development Lead in Google Developers Student Club IIIT Kota"
+              img={DEMAND}
+              title="Demand base"
+              subtitle="Full Stack Developer"
+              date="Oct 2018 - Aug 2020"
+              para="Developed B2B marketing intelligence platforms with React and Node.js, optimizing real-time data pipelines and search performance."
             />
             <Exp_prop
-              img={IIIT_KOTA}
-              title="Webteam Trainee, IIIT Kota"
-              subtitle="Trainee"
-              date="August 2023 - present"
-              para="- Webteam Trainee for the maintaining and developing the official website of IIIT Kota"
-            />
-            <Exp_prop
-              img={IIITians}
-              title="IIITians Network"
-              subtitle="Tech Team Lead"
-              date="April 2023 - present"
-              para="- Worked collaboratively within a team to develop a captivating college social network website."
-            />
-            <Exp_prop
-              img={Sports}
-              title="Sports Council, IIIT Kota"
-              subtitle="Technical Team"
-              date="June 2023 - present"
-              para="- Worked collaboratively within a team to develop a captivating college sports website."
-            />
-            <Exp_prop
-              img={GSSOC}
-              title="GSSoC'23 Contributor"
-              subtitle="Contributor"
-              date="June 2023 - present"
-              para="- Contributed in open source repositories like GameSphere, OpenTech, Moksh, Community Website etc. "
-            />
-            <Exp_prop
-              img={Hackthechain}
-              title="Hack The Chain Hackathon, IIIT Kota"
-              subtitle="Organizing Team"
-              date="March 2023"
-              para="- Helped in Organizing the first hybrid Hackathon of IIIT Kota organized by GDSC IIITK and Codebase Club. "
-            />
-            <Exp_prop
-              img={IITB}
-              title="IIT Bombay Techfest 2016"
-              subtitle="Junior Participant"
-              date="December 2016"
-              para="- Created a solar energy based three-in-one project which included a Mobile Charger, Mini Fan and a Mini Centrifuge. "
+              img={BOEING}
+              title="Boeing Partner"
+              subtitle="Node.js/Java Developer"
+              date="Jan 2015 - Mar2018"
+              para="Engineered backend services and enterprise applications for aviation logistics using Java, Node.js, and AWS, improving efficiency and reliability."
             />
           </div>
         </div>

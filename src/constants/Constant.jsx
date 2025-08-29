@@ -10,6 +10,12 @@ import Vite from "../assets/Vite.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import react from "../assets/react.png";
 import Vue from "../assets/vue.png";
+import mysql from "../assets/mysql.png";
+import php from "../assets/php.png";
+import docker from "../assets/docker.png";
+import csharp from "../assets/csharp.png";
+import aws from "../assets/aws.png";
+import angular from "../assets/angular.png";
 
 import Hackthechain from "../assets/HackTheChainLogo.png";
 import GSSOC from "../assets/GSSoc.jpg";
@@ -19,6 +25,10 @@ import IIITians from "../assets/IIITians_Network.png";
 import GDSC from "../assets/GDSC.png";
 import KDE from "../assets/kde.png";
 import Oppia from "../assets/oppia.png";
+import ELEKS from "../assets/Eleks-logo.png";
+import CURAI from "../assets/curaihealth-logo.png";
+import DEMAND from "../assets/Demandbase-logo.png";
+import BOEING from "../assets/Boeing-logo.png";
 
 import GPT4 from "../assets/gpt4.jpg";
 import Portfolio from "../assets/portfolio.jpg";
@@ -52,4 +62,14 @@ export {
   GDSC,
   KDE,
   Oppia,
+  ELEKS,
+  CURAI,
+  DEMAND,
+  BOEING,
+  mysql,
+  php,
+  docker,
+  csharp,
+  aws,
+  angular,
 };
